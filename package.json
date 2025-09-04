@@ -12,9 +12,17 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
     "class-variance-authority": "^0.7.1",
+    "dotenv": "^17.2.2",
+    "drizzle-orm": "^0.44.5",
     "nuxt": "^4.1.0",
+    "pg": "^8.16.3",
     "tailwindcss": "^4.1.12",
-    "vue": "^3.5.20",
+    "vue": "^3.5.21",
     "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.5",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.5"
   }
 }
