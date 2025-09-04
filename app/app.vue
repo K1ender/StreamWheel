@@ -1,6 +1,20 @@
+<script lang="ts" setup>
+useHead({
+  title: "StreamWheel",
+  link: [
+    {
+      rel: "icon",
+      type: "image/png",
+      href: "/favicon.png",
+    },
+  ],
+});
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage></NuxtPage>
+  </NuxtLayout>
+
+  <NuxtRouteAnnouncer />
 </template>
